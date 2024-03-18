@@ -1,0 +1,17 @@
+server:
+  port: 8080
+  servlet:
+    context-path: "/test/banco"
+spring:
+  application:
+    name: "entidadFinanciera"
+  devtools:
+    add-properties: false
+  profiles:
+    include: null
+  datasource:
+    username: "postgres"
+    password: "miluteamo123"
+    driverClassName: "org.postgresql.Driver"
+  jpa:
+    databasePlatform: "org.hibernate.dialect.PostgreSQLDialect"
